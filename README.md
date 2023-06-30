@@ -17,8 +17,8 @@ This project contains test projects and the full trace logs of the vscode-expo d
 
 | type       | SDK 48 | SDK 49 |
 | ---------- | ------ | ------ |
-| Expo Go    | ?      | ?      |
-| Dev Client | ?      | ?      |
+| Expo Go    | ✅     | ❌     |
+| Dev Client | ✅     | ✅     |
 
 ## CLI
 
