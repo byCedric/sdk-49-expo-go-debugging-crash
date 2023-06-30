@@ -4,12 +4,21 @@ This project contains test projects and the full trace logs of the vscode-expo d
 
 ## Current state
 
+### expo-template-blank
+
 | type       | SDK 48 | SDK 49 |
 | ---------- | ------ | ------ |
 | Expo Go    | ✅     | ❌     |
 | Dev Client | ✅     | ✅     |
 
 > SDK 49 + Expo Go seems to hard crash when invoking `Runtime.callFunctionOn` through CDP.
+
+### expo-template-tabs
+
+| type       | SDK 48 | SDK 49 |
+| ---------- | ------ | ------ |
+| Expo Go    | ?      | ?      |
+| Dev Client | ?      | ?      |
 
 ## CLI
 
