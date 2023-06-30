@@ -11,7 +11,7 @@ This project contains test projects and the full trace logs of the vscode-expo d
 | Expo Go    | ✅     | ❌     |
 | Dev Client | ✅     | ✅     |
 
-> SDK 49 + Expo Go seems to hard crash when invoking `Runtime.callFunctionOn` through CDP.
+> SDK 49 + Expo Go seems to hard crash when invoking `Runtime.callFunctionOn` through CDP. ([see these sequences](https://github.com/byCedric/sdk-49-expo-go-debugging-crash/blob/main/blank-49/_trace/traces/cdp.json#L52-L57))
 
 ### expo-template-tabs
 
@@ -19,6 +19,8 @@ This project contains test projects and the full trace logs of the vscode-expo d
 | ---------- | ------ | ------ |
 | Expo Go    | ✅     | ❌     |
 | Dev Client | ✅     | ✅     |
+
+> SDK 49 + Expo Go seems to hard crash when invoking `Runtime.callFunctionOn` through CDP. ([see these sequences](https://github.com/byCedric/sdk-49-expo-go-debugging-crash/blob/main/tabs-49/_trace/traces/cdp.json#L44-L49))
 
 ## CLI
 
