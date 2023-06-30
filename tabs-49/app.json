@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "sdk-48-tabs-bare",
-    "slug": "sdk-48-tabs-bare",
+    "name": "tabs-49",
+    "slug": "tabs-49",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -26,17 +26,15 @@
     },
     "web": {
       "bundler": "metro",
+      "output": "static",
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      ["expo-build-properties", {
-        "android": {
-          "unstable_networkInspector": true
-        },
-        "ios": {
-          "unstable_networkInspector": true
-        }
-      }]
-    ]
+      "expo-router"
+    ],
+    "experiments": {
+      "tsconfigPaths": true,
+      "typedRoutes": true
+    }
   }
 }

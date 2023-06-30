@@ -1,5 +1,5 @@
 {
-  "name": "sdk-48-tabs",
+  "name": "tabs-48",
   "version": "1.0.0",
   "scripts": {
     "start": "EXPO_USE_CUSTOM_INSPECTOR_PROXY=true expo start",

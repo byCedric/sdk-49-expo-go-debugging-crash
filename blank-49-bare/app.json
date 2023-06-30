@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "sdk-48-blank",
-    "slug": "sdk-48-blank",
+    "name": "blank-49-bare",
+    "slug": "blank-49-bare",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -16,30 +16,17 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.bycedric.sdk48blank"
+      "bundleIdentifier": "com.bycedric.blank49bare"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.bycedric.sdk48blank"
+      "package": "com.bycedric.blank49bare"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-    "plugins": [
-      [
-        "expo-build-properties",
-        {
-          "android": {
-            "unstable_networkInspector": true
-          },
-          "ios": {
-            "unstable_networkInspector": true
-          }
-        }
-      ]
-    ]
+    }
   }
 }

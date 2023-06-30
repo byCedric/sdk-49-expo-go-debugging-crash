@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "sdk-49-tabs-bare",
-    "slug": "sdk-49-tabs-bare",
+    "name": "tabs-49-bare",
+    "slug": "tabs-49-bare",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -17,14 +17,14 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.bycedric.sdk49tabsbare"
+      "bundleIdentifier": "com.bycedric.tabs49bare"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.bycedric.sdk49tabsbare"
+      "package": "com.bycedric.tabs49bare"
     },
     "web": {
       "bundler": "metro",

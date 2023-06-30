@@ -1,5 +1,5 @@
 {
-  "name": "sdk-49-tabs-bare",
+  "name": "tabs-49-bare",
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {

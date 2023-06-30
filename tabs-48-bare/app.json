@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "sdk-48-tabs",
-    "slug": "sdk-48-tabs",
+    "name": "tabs-48-bare",
+    "slug": "tabs-48-bare",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
