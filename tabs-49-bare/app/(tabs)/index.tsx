@@ -5,7 +5,7 @@ import { Text, View } from '@/components/Themed';
 
 function onButtonClick() {
   const hello = 'world';
-  console.log({ hello });
+
   return hello;
 }
 
