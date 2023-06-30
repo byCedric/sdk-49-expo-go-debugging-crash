@@ -16,7 +16,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bycedric.tabs48bare"
     },
     "android": {
       "adaptiveIcon": {
@@ -29,14 +30,17 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      ["expo-build-properties", {
-        "android": {
-          "unstable_networkInspector": true
-        },
-        "ios": {
-          "unstable_networkInspector": true
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "unstable_networkInspector": true
+          },
+          "ios": {
+            "unstable_networkInspector": true
+          }
         }
-      }]
+      ]
     ]
   }
 }
